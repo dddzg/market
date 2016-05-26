@@ -1,0 +1,6 @@
+{
+  "name": "Market",
+  "tagline": "react react-router",
+  "body": "# market/创意市集 #\r\nwebpack+react+react-router写的一个创意市集\r\n#安装#\r\n1. npm install\r\n2. npm start\r\n3. http://localhost:8080/\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
