@@ -6,7 +6,6 @@ import App from './modules/App'
 import Home from './modules/Home'
 import NoMatch from './modules/NoMatch'
 import Find from './modules/Find'
-import Thing from './modules/Thing'
 import Check from "./modules/Check"
 import Display from './modules/Display'
 import css from "./css/test.scss"
@@ -20,7 +19,6 @@ ReactDOM.render((
     <Route path="/" component={App}>
       <Route path="thing"component={Home} >
         <Route path="check" component={Check}/>
-        <Route path=":thing" component={Thing} />
       </Route>
       <Route path="blacklist" component={Display} />
       <Route path="find" component={Find} />
